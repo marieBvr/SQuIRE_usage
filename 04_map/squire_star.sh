@@ -39,8 +39,7 @@ echo input file:: $INPUT_FILE
 # EXTRACT SAMPLE NAME
 ls $1/*$5 > "$3/inputALL_ARRAY.txt"
 # allow one file per line, only for R1
-filename=$(sed "$SLURM_ARRAY_TASK_ID"'q;d' "$3/input_ARRAY.txt") 
-#rm -rf "$3/inputALL_ARRAY.txt"
+filename=$(echo "$INPUT_FILE" | cut -d' ' -f1 )
 
 # EXTRACT ONE LINE PER ARRAY
 path=$1/
