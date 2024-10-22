@@ -62,7 +62,7 @@ genePredToGtf file tmp.PruarM.annotated.cleaned.genePred Marouch_refGene.gtf
 cp raw_data/Marouch_refGene.gtf 03_fetch/Marouch/
 ```
 
-Then you need to index your genome with STAR=2.7.5a:
+Then you need to index your genome with STAR=2.7.5a or with the the STAR of squire 2.5.3a
 ```
 sbatch 01_index/index.sh
 ```
