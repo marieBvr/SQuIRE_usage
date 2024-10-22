@@ -88,6 +88,8 @@ As said before, check that you have these files in `03_fetch/Marouch/`:
 - Marouch_refGene.gtf
 - Marouch_rmsk.txt
 
+In `raw_data`, let only fastq.gz files. Move .txt or any other file away.
+
 Check `04_map/run_mapping.sh` and `04_map/map_arguments.sh`.
 If you have paired reads (r1 and r2), the number of array is the number of samples divided by 2.
 Run:
