@@ -29,6 +29,15 @@ Clone git repo:
 ```
 git clone https://github.com/wyang17/SQuIRE; cd SQuIRE; pip install -e .
 ```
+If you have Squire with modification on your local computer, install it this way:
+From your computer
+```
+scp SquiRe serveur@serveur:/path/SquiRe
+```
+Connect to your server and then :
+```
+cd SQuIRE; pip install -e .
+```
 
 
 ## Data preparation
