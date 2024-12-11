@@ -110,6 +110,8 @@ sbatch 04_map/run_mapping.sh 04_map/map_arguments.sh
 In `04_map/out` you will find one folder per samples.
 
 ## Count
+Put all the .bam files in 04_map/out
+
 Run count step:
 ```
 sbatch 05_count/run_count.sh 05_count/count_arguments.sh
